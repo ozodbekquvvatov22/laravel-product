@@ -17,6 +17,8 @@ class ProductController extends Controller
         return 'Yangi mahsulot qo`shish';
     }
 
+
+    
     public function store(Request $request)
     {
         //
