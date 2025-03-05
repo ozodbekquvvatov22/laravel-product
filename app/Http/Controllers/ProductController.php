@@ -18,7 +18,7 @@ class ProductController extends Controller
     }
 
 
-    
+
     public function store(Request $request)
     {
         //
@@ -32,7 +32,7 @@ class ProductController extends Controller
    
     public function edit(string $id)
     {
-        return (['message' =>'Mahsulotni tahrirlash, ID: ' . $id]); 
+        return  'Mahsulotni tahrirlash, ID: ' . $id; 
     }
     public function destroy($id)
     {
